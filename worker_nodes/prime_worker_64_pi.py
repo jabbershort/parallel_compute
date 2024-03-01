@@ -41,7 +41,7 @@ def get_random(min,max):
     n = random.randrange(min,max)
     return n
 
-def miller_rabin(n, k):
+def miller_rabin(n, k=40):
 
     # Implementation uses the Miller-Rabin Primality Test
     # The optimal number of rounds for this test is 40
@@ -79,7 +79,7 @@ def generate_prime():
     is_prime = False
     while not is_prime:
         r = get_random(0,(2**64)-1)
-        is_prime = miller_rabin(r,20)
+        is_prime = miller_rabin(r)
     end = time.perf_counter()
     millis = int((end-start)*1000)
     return r, millis

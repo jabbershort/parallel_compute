@@ -38,7 +38,7 @@ void print_prime()
 void generate_prime()
 {
   int start = millis();
-  int k = 20;
+  int k = 40;
   uint64_t r;
   bool pr = false;
   while (pr == false)
