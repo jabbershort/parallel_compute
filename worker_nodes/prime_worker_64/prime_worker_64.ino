@@ -84,6 +84,7 @@ void onRequest()
     char num_str[21];
     Wire.write(uintToStr(latest_prime.result.num,num_str));
     latest_prime.collected = true;
+    print_prime();
   }
   else
   {
@@ -143,5 +144,5 @@ void loop() {
   handleUART();
   #endif
   generate_prime();
-  print_prime();
+  // print_prime();
 }
