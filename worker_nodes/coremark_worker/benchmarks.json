@@ -1,0 +1,402 @@
+[
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Small (-Os)",
+        "frequency (MHz)": 50,
+        "score": 73
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Small (-Os)",
+        "frequency (MHz)": 100,
+        "score": 148
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Small (-Os)",
+        "frequency (MHz)": 120,
+        "score": 178
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Small (-Os)",
+        "frequency (MHz)": 125,
+        "score": 185
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Small (-Os)",
+        "frequency (MHz)": 133,
+        "score": 197
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Small (-Os)",
+        "frequency (MHz)": 150,
+        "score": 222
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Small (-Os)",
+        "frequency (MHz)": 200,
+        "score": 297
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Small (-Os)",
+        "frequency (MHz)": 225,
+        "score": 335
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Small (-Os)",
+        "frequency (MHz)": 240,
+        "score": 357
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Small (-Os)",
+        "frequency (MHz)": 250,
+        "score": 372
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise (-O)",
+        "frequency (MHz)": 50,
+        "score": 80
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise (-O)",
+        "frequency (MHz)": 100,
+        "score": 162
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise (-O)",
+        "frequency (MHz)": 120,
+        "score": 195
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise (-O)",
+        "frequency (MHz)": 133,
+        "score": 216
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise (-O)",
+        "frequency (MHz)": 125,
+        "score": 203
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise (-O)",
+        "frequency (MHz)": 150,
+        "score": 244
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise (-O)",
+        "frequency (MHz)": 200,
+        "score": 326
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise (-O)",
+        "frequency (MHz)": 225,
+        "score": 367
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise (-O)",
+        "frequency (MHz)": 240,
+        "score": 392
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise (-O)",
+        "frequency (MHz)": 250,
+        "score": 408
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise More (-O2)",
+        "frequency (MHz)": 50,
+        "score": 94
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise More (-O2)",
+        "frequency (MHz)": 100,
+        "score": 191
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise More (-O2)",
+        "frequency (MHz)": 120,
+        "score": 230
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise More (-O2)",
+        "frequency (MHz)": 125,
+        "score": 239
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise More (-O2)",
+        "frequency (MHz)": 133,
+        "score": 255
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise More (-O2)",
+        "frequency (MHz)": 150,
+        "score": 288
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise More (-O2)",
+        "frequency (MHz)": 200,
+        "score": 384
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise More (-O2)",
+        "frequency (MHz)": 225,
+        "score": 433
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise More (-O2)",
+        "frequency (MHz)": 240,
+        "score": 462
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise More (-O2)",
+        "frequency (MHz)": 250,
+        "score": 481
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise Even More (-O3)",
+        "frequency (MHz)": 50,
+        "score": 96
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise Even More (-O3)",
+        "frequency (MHz)": 100,
+        "score": 195
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise Even More (-O3)",
+        "frequency (MHz)": 120,
+        "score": 234
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise Even More (-O3)",
+        "frequency (MHz)": 125,
+        "score": 243
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise Even More (-O3)",
+        "frequency (MHz)": 133,
+        "score": 260
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise Even More (-O3)",
+        "frequency (MHz)": 150,
+        "score": 293
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise Even More (-O3)",
+        "frequency (MHz)": 200,
+        "score": 392
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise Even More (-O3)",
+        "frequency (MHz)": 225,
+        "score": 441
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise Even More (-O3)",
+        "frequency (MHz)": 240,
+        "score": 471
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Optimise Even More (-O3)",
+        "frequency (MHz)": 250,
+        "score": 490
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Fast (-OFast)",
+        "frequency (MHz)": 50,
+        "score": 96
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Fast (-OFast)",
+        "frequency (MHz)": 100,
+        "score": 195
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Fast (-OFast)",
+        "frequency (MHz)": 120,
+        "score": 234
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Fast (-OFast)",
+        "frequency (MHz)": 125,
+        "score": 244
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Fast (-OFast)",
+        "frequency (MHz)": 133,
+        "score": 260
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Fast (-OFast)",
+        "frequency (MHz)": 150,
+        "score": 293
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Fast (-OFast)",
+        "frequency (MHz)": 200,
+        "score": 392
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Fast (-OFast)",
+        "frequency (MHz)": 225,
+        "score": 441
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Fast (-OFast)",
+        "frequency (MHz)": 240,
+        "score": 471
+    },
+    {
+        "board": "Raspberry Pi Pico",
+        "processor": "RP2040",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Fast (-OFast)",
+        "frequency (MHz)": 250,
+        "score": 490
+    },
+]
