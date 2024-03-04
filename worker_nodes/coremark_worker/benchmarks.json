@@ -399,4 +399,91 @@
         "frequency (MHz)": 250,
         "score": 490
     },
+    {
+        "board": "Arduino UNO R4 WiFi",
+        "processor": "Renesas RA4M1",
+        "core": "Arm Cortex-M4",
+        "frequency (MHz)": 48,
+        "score": 80
+    },
+    {
+        "board": "Seeed XIAO ESP 32C3",
+        "processor": "ESP32-C3",
+        "core": "RISC-V",
+        "frequency (MHz)": 160,
+        "score": 304
+    },
+    {
+        "board": "Seeed XIAO ESP 32C3",
+        "processor": "ESP32-C3",
+        "core": "RISC-V",
+        "frequency (MHz)": 80,
+        "score": 151
+    },
+    {
+        "board": "Seeed XIAO ESP 32C3",
+        "processor": "ESP32-C3",
+        "core": "RISC-V",
+        "frequency (MHz)": 40,
+        "score": 75
+    },
+    {
+        "board": "Seeed XIAO ESP 32C3",
+        "processor": "ESP32-C3",
+        "core": "RISC-V",
+        "frequency (MHz)": 20,
+        "score": 37
+    },
+    {
+        "board": "Seeed XIAO ESP 32C3",
+        "processor": "ESP32-C3",
+        "core": "RISC-V",
+        "frequency (MHz)": 10,
+        "score": 17
+    },
+    {
+        "board": "Seeed nRF52840 Sense",
+        "processor": "nRF52840",
+        "core": "Arm Cortex-M4",
+        "frequency (MHz)": 64,
+        "score": 157
+    },
+    {
+        "board": "ESP32 Dev Board",
+        "processor": "Tensilica Xtensa",
+        "core": "LX6",
+        "frequency (MHz)": 240,
+        "score": 375
+    },
+    {
+        "board": "ESP32 Dev Board",
+        "processor": "Tensilica Xtensa",
+        "core": "LX6",
+        "frequency (MHz)": 160,
+        "score": 249
+    },
+    {
+        "board": "ESP32 Dev Board",
+        "processor": "Tensilica Xtensa",
+        "core": "LX6",
+        "frequency (MHz)": 40,
+        "score": 60
+    },
+    {
+        "board": "ESP32 Dev Board",
+        "processor": "Tensilica Xtensa",
+        "core": "LX6",
+        "frequency (MHz)": 26,
+        "score": 249
+    },
+    {
+        "board": "ESP32 Dev Board",
+        "processor": "Tensilica Xtensa",
+        "core": "LX6",
+        "frequency (MHz)": 20,
+        "score": 29
+    },
+    {"board":"ESP32 Dev Board","processor": "Tensilica Xtensa","core":"LX6","frequency (MHz)":13,"score":249},
+    {"board":"ESP32 Dev Board","processor": "Tensilica Xtensa","core":"LX6","frequency (MHz)":10,"score":13},
+    
 ]
