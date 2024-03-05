@@ -483,7 +483,58 @@
         "frequency (MHz)": 20,
         "score": 29
     },
-    {"board":"ESP32 Dev Board","processor": "Tensilica Xtensa","core":"LX6","frequency (MHz)":13,"score":249},
-    {"board":"ESP32 Dev Board","processor": "Tensilica Xtensa","core":"LX6","frequency (MHz)":10,"score":13},
-    
+    {
+        "board": "ESP32 Dev Board",
+        "processor": "Tensilica Xtensa",
+        "core": "LX6",
+        "frequency (MHz)": 13,
+        "score": 249
+    },
+    {
+        "board": "ESP32 Dev Board",
+        "processor": "Tensilica Xtensa",
+        "core": "LX6",
+        "frequency (MHz)": 10,
+        "score": 13
+    },
+    {
+        "board": "ItsyBitsy M0",
+        "processor": "SAMD21",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Small (-Os)",
+        "frequency (MHz)": 48,
+        "score": 49
+    },
+    {
+        "board": "ItsyBitsy M0",
+        "processor": "SAMD21",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Fast (-O2)",
+        "frequency (MHz)": 48,
+        "score": 84
+    },
+    {
+        "board": "ItsyBitsy M0",
+        "processor": "SAMD21",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Faster (-O3)",
+        "frequency (MHz)": 48,
+        "score": 83
+    },
+    {
+        "board": "ItsyBitsy M0",
+        "processor": "SAMD21",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Fastest (-Ofast)",
+        "frequency (MHz)": 48,
+        "score": 83
+    },
+    {
+        "board": "ItsyBitsy M0",
+        "processor": "SAMD21",
+        "core": "Arm Cortex-M0+",
+        "optimisation": "Dragon (-Ofast -funroll-loops)",
+        "frequency (MHz)": 48,
+        "score": 82
+    }
 ]
