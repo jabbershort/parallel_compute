@@ -536,5 +536,77 @@
         "optimisation": "Dragon (-Ofast -funroll-loops)",
         "frequency (MHz)": 48,
         "score": 82
+    },
+    {
+        "board": "STM32F4XX Clone",
+        "processor": "STM32F401CCUX",
+        "core": "Arm Cortex-M4",
+        "optimisation": "Smallest (-Os)",
+        "frequency (MHz)": 84,
+        "score": 178
+    },
+    {
+        "board": "STM32F4XX Clone",
+        "processor": "STM32F401CCUX",
+        "core": "Arm Cortex-M4",
+        "optimisation": "Smallest with LTO (-Os)",
+        "frequency (MHz)": 84,
+        "score": 174
+    },
+    {
+        "board": "STM32F4XX Clone",
+        "processor": "STM32F401CCUX",
+        "core": "Arm Cortex-M4",
+        "optimisation": "Fast (-O1)",
+        "frequency (MHz)": 84,
+        "score": 172
+    },
+    {
+        "board": "STM32F4XX Clone",
+        "processor": "STM32F401CCUX",
+        "core": "Arm Cortex-M4",
+        "optimisation": "Fast with LTO (-O1)",
+        "frequency (MHz)": 84,
+        "score": 173
+    },
+    {
+        "board": "STM32F4XX Clone",
+        "processor": "STM32F401CCUX",
+        "core": "Arm Cortex-M4",
+        "optimisation": "Faster (-O2)",
+        "frequency (MHz)": 84,
+        "score": 212
+    },
+    {
+        "board": "STM32F4XX Clone",
+        "processor": "STM32F401CCUX",
+        "core": "Arm Cortex-M4",
+        "optimisation": "Faster with LTO (-O2)",
+        "frequency (MHz)": 84,
+        "score": 206
+    },
+    {
+        "board": "STM32F4XX Clone",
+        "processor": "STM32F401CCUX",
+        "core": "Arm Cortex-M4",
+        "optimisation": "Fastest (-O3)",
+        "frequency (MHz)": 84,
+        "score": 222
+    },
+    {
+        "board": "STM32F4XX Clone",
+        "processor": "STM32F401CCUX",
+        "core": "Arm Cortex-M4",
+        "optimisation": "Fastest with LTO (-O3)",
+        "frequency (MHz)": 84,
+        "score": 226
+    },
+    {
+        "board": "STM32F4XX Clone",
+        "processor": "STM32F401CCUX",
+        "core": "Arm Cortex-M4",
+        "optimisation": "No optimisation (-O0)",
+        "frequency (MHz)": 84,
+        "score": 49
     }
 ]
