@@ -27,6 +27,6 @@ for addr in scan(force=True):
 
 bus = SMBus(1)
 
-data = bus.read_i2c_block_data(0x2b,8)
+data = bus.read_block_data(0x2b,0x00)
 print(data)
 print(data.decode('utf-8'))
