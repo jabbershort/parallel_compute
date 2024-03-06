@@ -19,6 +19,12 @@ def scan(force=False):
 
     return devices
 
+def read_from_address(bus,addr):
+    data = bus.read_i2c_block_data(addr,0,19)
+    num = int(bytes(data).decode('utf-8'))
+    return num
+
+
 # bus = SMBus(1)
 print('Present devices')
 for addr in scan(force=True):
@@ -27,6 +33,5 @@ for addr in scan(force=True):
 
 bus = SMBus(1)
 
-data = bus.read_block_data(0x2b,0x00)
-print(data)
-print(data.decode('utf-8'))
+print(read_from_address(bus,0x2b))
+bus.close()
