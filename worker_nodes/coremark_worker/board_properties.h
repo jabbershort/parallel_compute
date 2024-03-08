@@ -79,6 +79,18 @@ const char* boardname = "ItsyBitsy M4";
 const char* processorname = "SAMD51";
 const char* corename = "Arm Cortex-M4";
 
+#elif defined(ARDUINO_GENERIC_G474CETX) //STM32G474CEU6
+const char* boardname = "STM32G474CEU6";
+const char* processorname = "STM32G474CEU6";
+const char* corename = "Arm Cortex-M4";
+const int LED_PIN = LED_BUILTIN;
+const int ADDRESS = 54;
+
+#elif defined(ARDUINO_MINIMA)
+const char* boardname = "Arduino R4 Minima (Clone)";
+const char* processorname = "Renesas RA4M1";
+const char* corename = "Arm Cortex-M4";
+const byte LED_PIN = 21;
 
 #else
 const char* boardname = "UNKNOWN BOARD";

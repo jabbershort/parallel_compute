@@ -6,8 +6,8 @@
 
 void setup()
 {
-  // pinMode(LED_PIN, OUTPUT);
-  // digitalWrite(LED_PIN, HIGH); 
+  pinMode(LED_PIN, OUTPUT);
+  digitalWrite(LED_PIN, HIGH); 
 	Serial.begin(9600); 
 	while (!Serial) ; // wait for Arduino Serial Monitor
 	delay(500);
@@ -27,7 +27,7 @@ void setup()
   Serial.print(",\"score\":");
   Serial.print(res);
   Serial.println("}");
-  // digitalWrite(LED_PIN, LOW); 
+  digitalWrite(LED_PIN, LOW); 
 }
 
 void loop()
