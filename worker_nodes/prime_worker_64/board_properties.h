@@ -117,11 +117,9 @@ const char* boardname = "Arduino R4 Minima (Clone)";
 const char* processorname = "Renesas RA4M1";
 const char* corename = "Arm Cortex-M4";
 const int LED_PIN = 21;
-// const int SDA_PIN = 18;
-// const int SCL_PIN = 19;
 const int ADDRESS = 54;
 
-#elif defined(ARDUINO_GENERIC_G474CETX) //STM32G474CEU6
+#elif defined(ARDUINO_GENERIC_G474CETX)
 const char* boardname = "STM32G474CEU6";
 const char* processorname = "STM32G474CEU6";
 const char* corename = "Arm Cortex-M4";
@@ -130,11 +128,16 @@ const int SDA_PIN = 8;
 const int SCL_PIN = 9;
 const int ADDRESS = 55;
 
-#elif defined(ARDUINO_GENERIC_F103RCTX) // Not working
+#elif defined(ARDUINO_GENERIC_F103RCTX)
+/// has to be run with no usb support and swd programmer using st link and ttl converter
 const char* boardname = "STM32F103RCT6";
 const char* processorname =  "STM32F103RCT6";
 const char* corename = "Arm Cortex M3";
-const int LED_PIN = LED_BUILTIN;
+const byte LED_PIN = PC13;
+const int RX_PIN = 10;
+const int TX_PIN = 9;
+const byte SDA_PIN = PB7;
+const byte SCL_PIN = PB6;
 const int ADDRESS = 56;
 
 #else

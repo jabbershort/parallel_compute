@@ -8,6 +8,10 @@ void setup()
 {
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, HIGH); 
+  #if defined(ARDUINO_GENERIC_F103RCTX)
+  Serial.setRx(RX_PIN);
+  Serial.setTx(TX_PIN);
+  #endif
 	Serial.begin(9600); 
 	while (!Serial) ; // wait for Arduino Serial Monitor
 	delay(500);

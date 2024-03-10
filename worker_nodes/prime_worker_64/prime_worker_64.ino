@@ -43,9 +43,9 @@ void generate_prime() {
     r = getRandom(0, UINT64_MAX);
     pr = isPrime(r, k);
   }
-  latest_prime.collected = false;
   latest_prime.timeTaken = millis() - start;
   latest_prime.result.num = r;
+  latest_prime.collected = false;
   digitalWrite(LED_PIN, !digitalRead(LED_PIN));
 }
 
@@ -69,25 +69,33 @@ void handleUART() {
 #endif
 
 void onRequest() {
-  if (latest_prime.collected == false) {
+  Serial.println("received");
+  if (latest_prime.collected)
+  {
+    char num_str[21];
+    Wire.write(uintToStr(zero_result,num_str));
+    Wire.endTransmission();
+  }
+  else {
     char num_str[21];
     Wire.write(uintToStr(latest_prime.result.num, num_str));
+    Wire.endTransmission();
     latest_prime.collected = true;
     print_prime();
-  } else {
-    char num_str[21];
-    Wire.write(uintToStr(zero_result, num_str));
+    
   }
-  Wire.endTransmission();
 }
 
 void setup() {
+  #if defined(ARDUINO_GENERIC_F103RCTX)
+  Serial.setTx(TX_PIN);
+  Serial.setRx(RX_PIN);
+  #endif
   Serial.begin(9600);
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, LOW);
 
-// #if !defined(ARDUINO_AVR_NANO) && !defined(ARDUINO_ARC32_TOOLS)
-#if defined(ARDUINO_RASPBERRY_PI_PICO) || defined(ARDUINO_RASPBERRY_PI_PICO_W) || defined(ARDUINO_GENERIC_F401CCUX) || defined(ARDUINO_GENERIC_G474CETX)
+#if defined(ARDUINO_RASPBERRY_PI_PICO) || defined(ARDUINO_RASPBERRY_PI_PICO_W) || defined(ARDUINO_GENERIC_F401CCUX) || defined(ARDUINO_GENERIC_G474CETX) || defined(ARDUINO_GENERIC_F103RCTX)
   Wire.setSDA(SDA_PIN);
   Wire.setSCL(SCL_PIN);
 #endif
@@ -98,7 +106,7 @@ void setup() {
   Wire.begin((uint8_t)ADDRESS, SDA_PIN, SCL_PIN, 400000);
   Wire.onReceive(onReceive);
   Wire.onRequest(onRequest);
-#elif defined(ARDUINO_GENERIC_G474CETX)
+#elif defined(ARDUINO_GENERIC_G474CETX) || defined(ARDUINO_GENERIC_F103RCTX)
   Wire.begin(ADDRESS,false,true);
   Wire.onReceive(onReceive);
   Wire.onRequest(onRequest);
@@ -121,7 +129,7 @@ void setup() {
   Serial.print(". On I2C address: ");
   Serial.print(ADDRESS);
 #endif
-#if defined(ARDUINO_RASPBERRY_PI_PICO) || defined(ARDUINO_RASPBERRY_PI_PICO_W) || defined(ARDUINO_GENERIC_F401CCUX) || defined(ARDUINO_ESP32_DEV) || defined(ARDUINO_GENERIC_G474CETX)
+#if defined(ARDUINO_RASPBERRY_PI_PICO) || defined(ARDUINO_RASPBERRY_PI_PICO_W) || defined(ARDUINO_GENERIC_F401CCUX) || defined(ARDUINO_ESP32_DEV) || defined(ARDUINO_GENERIC_G474CETX) || defined(ARDUINO_GENERIC_F103RCTX)
   Serial.print(". Using SDA ");
   Serial.print(SDA_PIN);
   Serial.print(" and SCL ");

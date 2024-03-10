@@ -3,6 +3,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Small (-Os)",
         "frequency (MHz)": 50,
         "score": 73
@@ -11,6 +12,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Small (-Os)",
         "frequency (MHz)": 100,
         "score": 148
@@ -19,6 +21,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Small (-Os)",
         "frequency (MHz)": 120,
         "score": 178
@@ -27,6 +30,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Small (-Os)",
         "frequency (MHz)": 125,
         "score": 185
@@ -36,6 +40,7 @@
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
         "optimisation": "Small (-Os)",
+        "default": true,
         "frequency (MHz)": 133,
         "score": 197
     },
@@ -43,6 +48,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Small (-Os)",
         "frequency (MHz)": 150,
         "score": 222
@@ -51,6 +57,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Small (-Os)",
         "frequency (MHz)": 200,
         "score": 297
@@ -59,6 +66,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Small (-Os)",
         "frequency (MHz)": 225,
         "score": 335
@@ -67,6 +75,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Small (-Os)",
         "frequency (MHz)": 240,
         "score": 357
@@ -75,6 +84,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Small (-Os)",
         "frequency (MHz)": 250,
         "score": 372
@@ -83,6 +93,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise (-O)",
         "frequency (MHz)": 50,
         "score": 80
@@ -91,6 +102,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise (-O)",
         "frequency (MHz)": 100,
         "score": 162
@@ -99,6 +111,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise (-O)",
         "frequency (MHz)": 120,
         "score": 195
@@ -107,6 +120,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise (-O)",
         "frequency (MHz)": 133,
         "score": 216
@@ -115,6 +129,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise (-O)",
         "frequency (MHz)": 125,
         "score": 203
@@ -123,6 +138,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise (-O)",
         "frequency (MHz)": 150,
         "score": 244
@@ -131,6 +147,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise (-O)",
         "frequency (MHz)": 200,
         "score": 326
@@ -139,6 +156,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise (-O)",
         "frequency (MHz)": 225,
         "score": 367
@@ -147,6 +165,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise (-O)",
         "frequency (MHz)": 240,
         "score": 392
@@ -155,6 +174,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise (-O)",
         "frequency (MHz)": 250,
         "score": 408
@@ -163,6 +183,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise More (-O2)",
         "frequency (MHz)": 50,
         "score": 94
@@ -171,6 +192,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise More (-O2)",
         "frequency (MHz)": 100,
         "score": 191
@@ -179,6 +201,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise More (-O2)",
         "frequency (MHz)": 120,
         "score": 230
@@ -187,6 +210,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise More (-O2)",
         "frequency (MHz)": 125,
         "score": 239
@@ -195,6 +219,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise More (-O2)",
         "frequency (MHz)": 133,
         "score": 255
@@ -203,6 +228,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise More (-O2)",
         "frequency (MHz)": 150,
         "score": 288
@@ -211,6 +237,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise More (-O2)",
         "frequency (MHz)": 200,
         "score": 384
@@ -219,6 +246,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise More (-O2)",
         "frequency (MHz)": 225,
         "score": 433
@@ -227,6 +255,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise More (-O2)",
         "frequency (MHz)": 240,
         "score": 462
@@ -235,6 +264,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise More (-O2)",
         "frequency (MHz)": 250,
         "score": 481
@@ -243,6 +273,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise Even More (-O3)",
         "frequency (MHz)": 50,
         "score": 96
@@ -251,6 +282,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise Even More (-O3)",
         "frequency (MHz)": 100,
         "score": 195
@@ -259,6 +291,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise Even More (-O3)",
         "frequency (MHz)": 120,
         "score": 234
@@ -267,6 +300,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise Even More (-O3)",
         "frequency (MHz)": 125,
         "score": 243
@@ -275,6 +309,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise Even More (-O3)",
         "frequency (MHz)": 133,
         "score": 260
@@ -283,6 +318,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise Even More (-O3)",
         "frequency (MHz)": 150,
         "score": 293
@@ -291,6 +327,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise Even More (-O3)",
         "frequency (MHz)": 200,
         "score": 392
@@ -299,6 +336,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise Even More (-O3)",
         "frequency (MHz)": 225,
         "score": 441
@@ -307,6 +345,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise Even More (-O3)",
         "frequency (MHz)": 240,
         "score": 471
@@ -315,6 +354,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Optimise Even More (-O3)",
         "frequency (MHz)": 250,
         "score": 490
@@ -323,6 +363,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Fast (-OFast)",
         "frequency (MHz)": 50,
         "score": 96
@@ -331,6 +372,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Fast (-OFast)",
         "frequency (MHz)": 100,
         "score": 195
@@ -339,6 +381,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Fast (-OFast)",
         "frequency (MHz)": 120,
         "score": 234
@@ -347,6 +390,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Fast (-OFast)",
         "frequency (MHz)": 125,
         "score": 244
@@ -355,6 +399,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Fast (-OFast)",
         "frequency (MHz)": 133,
         "score": 260
@@ -363,6 +408,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Fast (-OFast)",
         "frequency (MHz)": 150,
         "score": 293
@@ -371,6 +417,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Fast (-OFast)",
         "frequency (MHz)": 200,
         "score": 392
@@ -379,6 +426,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Fast (-OFast)",
         "frequency (MHz)": 225,
         "score": 441
@@ -387,6 +435,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Fast (-OFast)",
         "frequency (MHz)": 240,
         "score": 471
@@ -395,6 +444,7 @@
         "board": "Raspberry Pi Pico",
         "processor": "RP2040",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Fast (-OFast)",
         "frequency (MHz)": 250,
         "score": 490
@@ -403,13 +453,23 @@
         "board": "Arduino UNO R4 WiFi",
         "processor": "Renesas RA4M1",
         "core": "Arm Cortex-M4",
+        "default": true,
         "frequency (MHz)": 48,
         "score": 80
+    },
+    {
+        "board": "Arduino R4 Minima (Clone)",
+        "processor": "Renesas RA4M1",
+        "core": "Arm Cortex-M4",
+        "default": true,
+        "frequency (MHz)": 48,
+        "score": 81
     },
     {
         "board": "Seeed XIAO ESP 32C3",
         "processor": "ESP32-C3",
         "core": "RISC-V",
+        "default": true,
         "frequency (MHz)": 160,
         "score": 304
     },
@@ -417,6 +477,7 @@
         "board": "Seeed XIAO ESP 32C3",
         "processor": "ESP32-C3",
         "core": "RISC-V",
+        "default": false,
         "frequency (MHz)": 80,
         "score": 151
     },
@@ -424,6 +485,7 @@
         "board": "Seeed XIAO ESP 32C3",
         "processor": "ESP32-C3",
         "core": "RISC-V",
+        "default": false,
         "frequency (MHz)": 40,
         "score": 75
     },
@@ -431,6 +493,7 @@
         "board": "Seeed XIAO ESP 32C3",
         "processor": "ESP32-C3",
         "core": "RISC-V",
+        "default": false,
         "frequency (MHz)": 20,
         "score": 37
     },
@@ -438,6 +501,7 @@
         "board": "Seeed XIAO ESP 32C3",
         "processor": "ESP32-C3",
         "core": "RISC-V",
+        "default": false,
         "frequency (MHz)": 10,
         "score": 17
     },
@@ -445,6 +509,7 @@
         "board": "Seeed nRF52840 Sense",
         "processor": "nRF52840",
         "core": "Arm Cortex-M4",
+        "default": true,
         "frequency (MHz)": 64,
         "score": 157
     },
@@ -452,6 +517,7 @@
         "board": "ESP32 Dev Board",
         "processor": "Tensilica Xtensa",
         "core": "LX6",
+        "default": true,
         "frequency (MHz)": 240,
         "score": 375
     },
@@ -459,6 +525,7 @@
         "board": "ESP32 Dev Board",
         "processor": "Tensilica Xtensa",
         "core": "LX6",
+        "default": false,
         "frequency (MHz)": 160,
         "score": 249
     },
@@ -466,6 +533,7 @@
         "board": "ESP32 Dev Board",
         "processor": "Tensilica Xtensa",
         "core": "LX6",
+        "default": false,
         "frequency (MHz)": 40,
         "score": 60
     },
@@ -473,6 +541,7 @@
         "board": "ESP32 Dev Board",
         "processor": "Tensilica Xtensa",
         "core": "LX6",
+        "default": false,
         "frequency (MHz)": 26,
         "score": 249
     },
@@ -480,6 +549,7 @@
         "board": "ESP32 Dev Board",
         "processor": "Tensilica Xtensa",
         "core": "LX6",
+        "default": false,
         "frequency (MHz)": 20,
         "score": 29
     },
@@ -487,6 +557,7 @@
         "board": "ESP32 Dev Board",
         "processor": "Tensilica Xtensa",
         "core": "LX6",
+        "default": false,
         "frequency (MHz)": 13,
         "score": 249
     },
@@ -494,6 +565,7 @@
         "board": "ESP32 Dev Board",
         "processor": "Tensilica Xtensa",
         "core": "LX6",
+        "default": false,
         "frequency (MHz)": 10,
         "score": 13
     },
@@ -501,6 +573,7 @@
         "board": "ItsyBitsy M0",
         "processor": "SAMD21",
         "core": "Arm Cortex-M0+",
+        "default": true,
         "optimisation": "Small (-Os)",
         "frequency (MHz)": 48,
         "score": 49
@@ -509,6 +582,7 @@
         "board": "ItsyBitsy M0",
         "processor": "SAMD21",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Fast (-O2)",
         "frequency (MHz)": 48,
         "score": 84
@@ -517,6 +591,7 @@
         "board": "ItsyBitsy M0",
         "processor": "SAMD21",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Faster (-O3)",
         "frequency (MHz)": 48,
         "score": 83
@@ -525,6 +600,7 @@
         "board": "ItsyBitsy M0",
         "processor": "SAMD21",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Fastest (-Ofast)",
         "frequency (MHz)": 48,
         "score": 83
@@ -533,6 +609,7 @@
         "board": "ItsyBitsy M0",
         "processor": "SAMD21",
         "core": "Arm Cortex-M0+",
+        "default": false,
         "optimisation": "Dragon (-Ofast -funroll-loops)",
         "frequency (MHz)": 48,
         "score": 82
@@ -541,6 +618,7 @@
         "board": "STM32F4XX Clone",
         "processor": "STM32F401CCUX",
         "core": "Arm Cortex-M4",
+        "default": true,
         "optimisation": "Smallest (-Os)",
         "frequency (MHz)": 84,
         "score": 178
@@ -549,6 +627,7 @@
         "board": "STM32F4XX Clone",
         "processor": "STM32F401CCUX",
         "core": "Arm Cortex-M4",
+        "default": false,
         "optimisation": "Smallest with LTO (-Os)",
         "frequency (MHz)": 84,
         "score": 174
@@ -557,6 +636,7 @@
         "board": "STM32F4XX Clone",
         "processor": "STM32F401CCUX",
         "core": "Arm Cortex-M4",
+        "default": false,
         "optimisation": "Fast (-O1)",
         "frequency (MHz)": 84,
         "score": 172
@@ -565,6 +645,7 @@
         "board": "STM32F4XX Clone",
         "processor": "STM32F401CCUX",
         "core": "Arm Cortex-M4",
+        "default": false,
         "optimisation": "Fast with LTO (-O1)",
         "frequency (MHz)": 84,
         "score": 173
@@ -573,6 +654,7 @@
         "board": "STM32F4XX Clone",
         "processor": "STM32F401CCUX",
         "core": "Arm Cortex-M4",
+        "default": false,
         "optimisation": "Faster (-O2)",
         "frequency (MHz)": 84,
         "score": 212
@@ -581,6 +663,7 @@
         "board": "STM32F4XX Clone",
         "processor": "STM32F401CCUX",
         "core": "Arm Cortex-M4",
+        "default": false,
         "optimisation": "Faster with LTO (-O2)",
         "frequency (MHz)": 84,
         "score": 206
@@ -589,6 +672,7 @@
         "board": "STM32F4XX Clone",
         "processor": "STM32F401CCUX",
         "core": "Arm Cortex-M4",
+        "default": false,
         "optimisation": "Fastest (-O3)",
         "frequency (MHz)": 84,
         "score": 222
@@ -597,6 +681,7 @@
         "board": "STM32F4XX Clone",
         "processor": "STM32F401CCUX",
         "core": "Arm Cortex-M4",
+        "default": false,
         "optimisation": "Fastest with LTO (-O3)",
         "frequency (MHz)": 84,
         "score": 226
@@ -605,8 +690,27 @@
         "board": "STM32F4XX Clone",
         "processor": "STM32F401CCUX",
         "core": "Arm Cortex-M4",
+        "default": false,
         "optimisation": "No optimisation (-O0)",
         "frequency (MHz)": 84,
         "score": 49
+    },
+    {
+        "board": "STM32F103RCT6",
+        "processor": "STM32F103RCT6",
+        "core": "Arm Cortex M3",
+        "default": true,
+        "optimisation": "Smallest (-Os)",
+        "frequency (MHz)": 64,
+        "score": 90
+    },
+    {
+        "board": "STM32G474CEU6",
+        "processor": "STM32G474CEU6",
+        "core": "Arm Cortex-M4",
+        "default": true,
+        "optimisation": "Smallest (-Os)",
+        "frequency (MHz)": 150,
+        "score": 288
     }
 ]
