@@ -73,7 +73,7 @@ void onRequest() {
     char num_str[21];
     Wire.write(uintToStr(latest_prime.result.num, num_str));
     latest_prime.collected = true;
-    // print_prime();
+    print_prime();
   } else {
     char num_str[21];
     Wire.write(uintToStr(zero_result, num_str));
@@ -87,7 +87,7 @@ void setup() {
   digitalWrite(LED_PIN, LOW);
 
 // #if !defined(ARDUINO_AVR_NANO) && !defined(ARDUINO_ARC32_TOOLS)
-#if defined(ARDUINO_RASPBERRY_PI_PICO) || defined(ARDUINO_RASPBERRY_PI_PICO_W) || defined(ARDUINO_GENERIC_F401CCUX)
+#if defined(ARDUINO_RASPBERRY_PI_PICO) || defined(ARDUINO_RASPBERRY_PI_PICO_W) || defined(ARDUINO_GENERIC_F401CCUX) || defined(ARDUINO_GENERIC_G474CETX)
   Wire.setSDA(SDA_PIN);
   Wire.setSCL(SCL_PIN);
 #endif
@@ -96,6 +96,10 @@ void setup() {
   Serial1.begin(9600);
 #elif defined(ARDUINO_ESP32_DEV)
   Wire.begin((uint8_t)ADDRESS, SDA_PIN, SCL_PIN, 400000);
+  Wire.onReceive(onReceive);
+  Wire.onRequest(onRequest);
+#elif defined(ARDUINO_GENERIC_G474CETX)
+  Wire.begin(ADDRESS,false,true);
   Wire.onReceive(onReceive);
   Wire.onRequest(onRequest);
 #else
@@ -117,7 +121,7 @@ void setup() {
   Serial.print(". On I2C address: ");
   Serial.print(ADDRESS);
 #endif
-#if defined(ARDUINO_RASPBERRY_PI_PICO) || defined(ARDUINO_RASPBERRY_PI_PICO_W) || defined(ARDUINO_GENERIC_F401CCUX) || defined(ARDUINO_ESP32_DEV)
+#if defined(ARDUINO_RASPBERRY_PI_PICO) || defined(ARDUINO_RASPBERRY_PI_PICO_W) || defined(ARDUINO_GENERIC_F401CCUX) || defined(ARDUINO_ESP32_DEV) || defined(ARDUINO_GENERIC_G474CETX)
   Serial.print(". Using SDA ");
   Serial.print(SDA_PIN);
   Serial.print(" and SCL ");
@@ -131,5 +135,5 @@ void loop() {
   handleUART();
 #endif
   generate_prime();
-  print_prime();
+  // print_prime();
 }
