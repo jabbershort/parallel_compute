@@ -129,16 +129,24 @@ const int SCL_PIN = 9;
 const int ADDRESS = 55;
 
 #elif defined(ARDUINO_GENERIC_F103RCTX)
-/// has to be run with no usb support and swd programmer using st link and ttl converter
+///swd programmer using st link
 const char* boardname = "STM32F103RCT6";
 const char* processorname =  "STM32F103RCT6";
 const char* corename = "Arm Cortex M3";
 const byte LED_PIN = PC13;
-const int RX_PIN = 10;
-const int TX_PIN = 9;
 const byte SDA_PIN = PB7;
 const byte SCL_PIN = PB6;
 const int ADDRESS = 56;
+
+#elif defined(ARDUINO_GENERIC_F103C8TX)
+/// swd programmer using st link 
+const char* boardname = "STM32F103C8T6";
+const char* processorname = "STM32F103C8T6";
+const char* corename = "Arm Cortex M3";
+const byte LED_PIN = PC13;
+const byte SDA_PIN = PB7;
+const byte SCL_PIN = PB6;
+const int ADDRESS = 57;
 
 #else
 const char* boardname = "UNKNOWN BOARD";

@@ -712,5 +712,32 @@
         "optimisation": "Smallest (-Os)",
         "frequency (MHz)": 150,
         "score": 288
+    },
+    {
+        "board": "STM32F103C8T6",
+        "processor": "STM32F103C8T6",
+        "core": "Arm Cortex M3",
+        "default": true,
+        "optimisation": "Smallest (-Os)",
+        "frequency (MHz)": 48,
+        "score": 85
+    },
+    {
+        "board": "Teensy 4.0",
+        "processor": "NXP iMXRT1062",
+        "core": "Arm Cortex-M7",
+        "default": true,
+        "optimisation": "Faster",
+        "frequency (MHz)": 600,
+        "score": 2408
+    },
+    {
+        "board": "Teensy 4.0",
+        "processor": "NXP iMXRT1062",
+        "core": "Arm Cortex-M7",
+        "optimisation": "Faster",
+        "default":false,
+        "frequency (MHz)": 24,
+        "score": 96
     }
 ]

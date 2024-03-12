@@ -87,10 +87,6 @@ void onRequest() {
 }
 
 void setup() {
-  #if defined(ARDUINO_GENERIC_F103RCTX)
-  Serial.setTx(TX_PIN);
-  Serial.setRx(RX_PIN);
-  #endif
   Serial.begin(9600);
   pinMode(LED_PIN, OUTPUT);
   digitalWrite(LED_PIN, LOW);
@@ -143,5 +139,5 @@ void loop() {
   handleUART();
 #endif
   generate_prime();
-  // print_prime();
+  print_prime();
 }
