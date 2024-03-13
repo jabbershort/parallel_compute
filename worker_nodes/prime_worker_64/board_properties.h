@@ -37,7 +37,6 @@ const int SCL_PIN = 22;
 const char* boardname = "Seeed XIAO ESP 32C3";
 const char* processorname = "ESP32-C3";
 const char* corename = "RISC-V";
-
 const int LED_PIN = 0;  
 const int ADDRESS = 46;
 
@@ -47,6 +46,8 @@ const int ADDRESS = 46;
 const char* boardname = "Seeed nRF52840 Sense";
 const char* processorname = "nRF52840";
 const char* corename = "Arm Cortex-M4";
+const int SDA_PIN = 4;
+const int SCL_PIN = 5;
 const int LED_PIN = LED_BUILTIN;
 const int ADDRESS = 47;
 
@@ -57,6 +58,8 @@ const char* boardname = "Seeed nRF52840 Sense";
 const char* processorname = "nRF52840";
 const char* corename = "Arm Cortex-M4";
 const int LED_PIN = LED_BUILTIN;
+const int SDA_PIN = 4;
+const int SCL_PIN = 5;
 const int ADDRESS = 47;
 
 #elif defined(ARDUINO_ARC32_TOOLS)

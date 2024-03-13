@@ -1,7 +1,7 @@
 import machine
 import time
 import sys
-from RGB1602 import RGB1602
+#from RGB1602 import RGB1602
 
 lcd_connected = False
 
@@ -20,26 +20,30 @@ devices = {
     45: 'ESP32',
     46: 'ESP32C3',
     47: 'NRF52840 Sense',
-    48: 'STM32F401CCUX'
+    48: 'STM32F401CCUX',
+    49: 'Pro Micro'
     }
 
 def update_loop(i2c,uart):
     global lcd_connected
     devs = i2c.scan()
+    #print(devs)
     for dev in devs:
         if dev not in list(devices.keys()):
             continue
         try:
-            b = i2c.readfrom(dev,8)
+            b = i2c.readfrom(dev,19)
+            print(b)
+            d = int(b.decode('utf-8'))
+            if d < 5:
+                continue
+            print(f'Received: {d} from {devices[dev]}')
         except:
             continue
-        d=int.from_bytes(b,"little")
-        if d <5:
-            continue
-        print(f'Received: {d} from {devices[dev]}')
-        if sys.implementation._machine == 'Raspberry Pi Pico with RP2040':
-            if lcd_connected:
-                print_prime(d)
+
+        #if sys.implementation._machine == 'Raspberry Pi Pico with RP2040':
+            #if lcd_connected:
+                #print_prime(d)
     #read uart
     # uart.write('hi')
     # d = uart.readline()
@@ -54,7 +58,7 @@ def print_prime(num):
     lcd.printout(num[15:])
 
 if sys.implementation._machine == 'Raspberry Pi Pico with RP2040':
-    i2c = machine.I2C(0,sda=machine.Pin(20), scl=machine.Pin(21))
+    i2c = machine.I2C(1,sda=machine.Pin(18), scl=machine.Pin(19))
     if lcd_connected:
         lcd.setRGB(50,50,50);
 else:

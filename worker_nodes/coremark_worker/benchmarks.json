@@ -736,8 +736,15 @@
         "processor": "NXP iMXRT1062",
         "core": "Arm Cortex-M7",
         "optimisation": "Faster",
-        "default":false,
+        "default": false,
         "frequency (MHz)": 24,
         "score": 96
+    },
+    {
+        "board": "TinyTILE",
+        "processor": "Intel Curie",
+        "core": "Intel Quark (x86) and ARC",
+        "frequency (MHz)": 32,
+        "score": 50
     }
 ]

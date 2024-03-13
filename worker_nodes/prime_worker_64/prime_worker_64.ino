@@ -50,8 +50,8 @@ void generate_prime() {
 }
 
 void onReceive(int howMany) {
-  Serial.print("Received: ");
-  Serial.println(howMany);
+  // Serial.print("Received: ");
+  // Serial.println(howMany);
 }
 
 #if defined(ARDUINO_ARC32_TOOLS)
@@ -69,17 +69,17 @@ void handleUART() {
 #endif
 
 void onRequest() {
-  Serial.println("received");
+  // Serial.println("received");
   if (latest_prime.collected)
   {
     char num_str[21];
     Wire.write(uintToStr(zero_result,num_str));
-    Wire.endTransmission();
+    // Wire.endTransmission();
   }
   else {
     char num_str[21];
     Wire.write(uintToStr(latest_prime.result.num, num_str));
-    Wire.endTransmission();
+    // Wire.endTransmission();
     latest_prime.collected = true;
     print_prime();
     
@@ -112,13 +112,13 @@ void setup() {
   Wire.onRequest(onRequest);
 #endif
 
-  latest_prime.result.num = zero_result;
-  latest_prime.timeTaken = 0;
-  latest_prime.board = (char*)boardname;
+latest_prime.result.num = zero_result;
+latest_prime.timeTaken = 0;
+latest_prime.board = (char*)boardname;
+delay(5000);
+Serial.print("Starting device: ");
+Serial.print(boardname);
 
-  delay(5000);
-  Serial.print("Starting device: ");
-  Serial.print(boardname);
 #if defined(ARDUINO_ARC32_TOOLS)
   Serial.print(". On UART");
 #else
@@ -139,5 +139,5 @@ void loop() {
   handleUART();
 #endif
   generate_prime();
-  print_prime();
+  // print_prime();
 }
