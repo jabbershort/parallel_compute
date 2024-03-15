@@ -34,7 +34,7 @@ const int SDA_PIN = 21;
 const int SCL_PIN = 22; 
 
 #elif defined(ARDUINO_XIAO_ESP32C3)
-const char* boardname = "Seeed XIAO ESP 32C3";
+const char* boardname = "Seeed XIAO ESP32C3";
 const char* processorname = "ESP32-C3";
 const char* corename = "RISC-V";
 const int LED_PIN = 0;  
@@ -92,12 +92,16 @@ const char* processorname = "Tensilica";
 const char* corename = " L106";
 const int LED_PIN = LED_BUILTIN;
 const int ADDRESS = 50;
+const int SDA_PIN = 4;
+const int SCL_PIN = 5;
   
 #elif defined(ARDUINO_TEENSY40)
 const char* boardname = "Teensy 4.0";
 const char* processorname = "NXP iMXRT1062";
 const char* corename = "Arm Cortex-M7";
 const int LED_PIN = LED_BUILTIN;
+const int SDA_PIN = 18;
+const int SCL_PIN = 19;
 const int ADDRESS = 51;
 
 #elif defined(ARDUINO_ITSYBITSY_M0)
