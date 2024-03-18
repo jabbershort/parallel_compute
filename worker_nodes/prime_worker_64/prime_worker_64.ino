@@ -71,6 +71,11 @@ void onRequest() {
   {
     #if defined(ARDUINO_MINIMA) || defined (ARDUINO_ITSYBITSY_M0)
       Wire.write(zero_result);
+    #elif defined(ARDUINO_SEEED_XIAO_NRF52840_SENSE) || defined(ARDUINO_Seeed_XIAO_nRF52840_Sense) || defined (ARDUINO_AVR_PROMICRO)
+      for(int i = 0;i<19;i++)
+      {
+        Wire.write(zero_result[i]);
+      }
     #else
       for(int i = 0;i<19;i++)
       {
@@ -82,6 +87,12 @@ void onRequest() {
   else {
     #if defined(ARDUINO_MINIMA) || defined (ARDUINO_ITSYBITSY_M0)
       Wire.write(latest_prime.resultString);
+      latest_prime.collected = true;
+    #elif defined(ARDUINO_SEEED_XIAO_NRF52840_SENSE) || defined(ARDUINO_Seeed_XIAO_nRF52840_Sense) || defined (ARDUINO_AVR_PROMICRO)
+      for(int i = 0;i<19;i++)
+      {
+        Wire.write(latest_prime.resultString[i]);
+      }
       latest_prime.collected = true;
     #else
       for(int i = 0;i<19;i++)
